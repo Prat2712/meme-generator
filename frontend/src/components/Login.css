@@ -1,0 +1,8 @@
+.login-bg {
+    background: linear-gradient(to bottom, #0000007e , #000000),
+    url(https://t4.ftcdn.net/jpg/04/60/71/01/360_F_460710131_YkD6NsivdyYsHupNvO3Y8MPEwxTAhORh.jpg);
+    background-attachment: fixed;
+    transition-duration: 1s;
+    padding: 10% 0;
+    background-size: cover;
+}

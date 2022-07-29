@@ -3,9 +3,14 @@
 // 3. Function should contain a top-level return statement.
 // 4. Function should exported in order to add in App.js
 
-import { Button, Card, CardActions, CardContent, CardHeader } from "@mui/material";
+import {
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  CardHeader,
+} from "@mui/material";
 import React from "react";
-
 
 const Home = () => {
   const creator = "Facebook";
@@ -49,8 +54,14 @@ const Home = () => {
         {item}
         <div className="container mt-5">
           <Button>MUI button 1 </Button>
-          <Button variant= "contained" color="primary"> MUI Button 2 </Button>
-          <Button variant= "outlined" color="error"> MUI Button 3 </Button>
+          <Button variant="contained" color="primary">
+            {" "}
+            MUI Button 2{" "}
+          </Button>
+          <Button variant="outlined" color="error">
+            {" "}
+            MUI Button 3{" "}
+          </Button>
 
           <Card className="mt-5">
             <CardHeader title="Card Header"></CardHeader>
@@ -58,7 +69,7 @@ const Home = () => {
               <h2>Material UI Card</h2>
             </CardContent>
             <CardActions>
-              <Button color="error" variant ="contained">
+              <Button color="error" variant="contained">
                 Learn More
               </Button>
             </CardActions>

@@ -3,6 +3,7 @@ import { Formik } from "formik";
 import React from "react";
 import Swal from "sweetalert2";
 import * as Yup from "yup";
+import "./Signup.css";
 
 const Signup = () => {
   const handleFormSubmit = (formdata) => {
@@ -41,12 +42,16 @@ const Signup = () => {
   });
 
   return (
-    <div style={{ background: "#eee", height: "100vh" }}>
+    <header class="text-white text-center signup-bg">
+    <div>
       <div className="row h-100 justify-content-center align-items-center">
         <div className="col-md-3">
           <div className="card">
             <div className="card-body">
-              <h3 className="text-muted text-center">Signup Form</h3>
+              <img class= 'card-img top'
+              src='https://w7.pngwing.com/pngs/986/953/png-transparent-houston-rockets-internet-meme-basketball-meme-face-hand-logo.png'
+              alt=""/>
+               <h3 className="text-muted text-center">Signup</h3>
               <hr />
 
               <Formik
@@ -114,12 +119,13 @@ const Signup = () => {
                     </Button>
                   </form>
                 )}
-              </Formik>
+              </Formik>             
             </div>
           </div>
         </div>
       </div>
     </div>
+    </header>
   );
 };
 

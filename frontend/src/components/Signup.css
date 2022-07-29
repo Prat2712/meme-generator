@@ -1,0 +1,8 @@
+.signup-bg {
+    background: linear-gradient(to bottom, #0000007e , #000000),
+    url(https://i.imgflip.com/6gojkv.jpg);
+    background-attachment: fixed;
+    transition-duration: 1s;
+    padding: 10% 0;
+    background-size: cover;
+}
